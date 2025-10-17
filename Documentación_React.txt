@@ -70,3 +70,6 @@ Crear proyecto react:
 Escoger react
 escojer JavaScript + SWC
 le das que no a las 2 cosas siguientes y listo
+
+para inicializar el projecto, entras al visual, abres la terminal e instalas las dependencias
+	npm i
