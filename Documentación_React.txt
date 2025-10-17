@@ -1,1 +1,43 @@
 npm crate vite@latest
+
+REPOSITORIO GITHUB
+	git init
+
+Cambiar el nombre de maste a main:
+	git branch -M main
+
+Eliminar Credenciales de otros usuarios:
+	windows + S
+	administrador de credenciales
+Credenciales de windows
+	elimina las credenciales de windows que no sean suyas
+
+Configurar usuario local de Git:
+	git config user.email "mariopiedras0@gmail.com"
+	git config user.name "Mario-Piedras"
+
+Ahora agregar todos los archivos del proyecto:
+	git add .
+
+Realizar un commit descritivo de la versión a subir:
+	git commit -m "Primera Subida"
+
+Enlazar la dirección del repositorio en la nube con el local:
+git remote add origin "URL del repositorio"
+git push -u origin main
+
+Luego saldrá que debe iniciar sesión con el navegador:
+Inicie sesión con sus credenciales del GitHub.
+Actualiza el repositorio de la nube.
+
+Comprobar el estado del proyecto:
+git status
+
+(Si aparece en algo en rojo significia que el archivo es nuevo o se ha modificado).
+
+comando para actualizar el repositorio con la versión local:
+git status
+git add .
+git commit -m "nombre de la versión o descripción del commit"
+git push
+
